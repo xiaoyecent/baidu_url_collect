@@ -1,6 +1,6 @@
 # baidu_url_collect
 
-百度url采集脚本,挖洞的人都懂这是什么.. win和linux下均可使用,亲测速度比较快(多线程加队列的写法~)
+百度url采集脚本,挖洞的人都懂这是什么.. win和linux下均可使用,亲测速度比较快(多线程加队列的写法),脚本本身确实不是很难实现,大牛勿喷
 ```
 usage: bd_url.py [-h] [-p PAGECOUNT] [-t THREAD_COUNT] [-o OUTFILE] keyword
 
@@ -27,3 +27,4 @@ keyword为关键字,如site:.kr即为搜寻韩国网站;
 ```
 demo: python bd_url.py "site:.kr" -p 20 -t 20 -o result1.txt
 ```
+脚本只是初步完成,确实比较简单,之后会完善,加入google等的采集功能,如有bug,敬请提出
